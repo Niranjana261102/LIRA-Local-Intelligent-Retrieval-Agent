@@ -45,5 +45,25 @@ Ensure you have [Python 3.10+](https://www.python.org/) and [Ollama](https://oll
 
 ### 2. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/LIRA-Local-RAG-Agent.git](https://github.com/YOUR_USERNAME/LIRA-Local-RAG-Agent.git)
-cd LIRA-Local-RAG-Agent
+git clone https://github.com/Niranjana261102/LIRA-Local-Intelligent-Retrieval-Agent.git
+cd LIRA-Local-Intelligent-Retrieval-Agent
+```
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 4. Setup the AI Brain
+Run these commands in your terminal to download the models:
+```bash
+ollama pull qwen2.5:1.5b
+ollama pull nomic-embed-text
+```
+### 5. Launch the Application
+Terminal 1 (Backend):
+```bash
+uvicorn app.api:app --host 0.0.0.0 --port 8000
+```
+Terminal 2 (Frontend):
+```bash
+streamlit run ui.py
+```
