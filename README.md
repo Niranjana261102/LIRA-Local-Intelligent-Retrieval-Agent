@@ -5,7 +5,7 @@
 ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Ollama](https://img.shields.io/badge/AI-Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 
-> **"Privacy-First AI that runs 100% on your local hardware."**
+> **"An AI Chatbot that runs 100% on your local hardware."**
 
 ## 🔮 What is LIRA?
 **LIRA** (Local Intelligent Retrieval Agent) is a secure, offline RAG (Retrieval-Augmented Generation) application. It allows users to upload private documents (PDFs, TXT) and chat with them using a powerful AI model running entirely on their own laptop.
@@ -67,3 +67,4 @@ Terminal 2 (Frontend):
 ```bash
 streamlit run ui.py
 ```
+
