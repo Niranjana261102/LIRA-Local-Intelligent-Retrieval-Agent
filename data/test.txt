@@ -1,0 +1,18 @@
+Project Name: LIRA (Local Intelligent Retrieval Agent)
+Developer: Niranjana Sajith Kumar
+Date: December 2025
+
+Project Overview:
+LIRA is a document ingestion and retrieval application designed to run entirely on local hardware without requiring cloud APIs. It was built to satisfy the assessment requirements for an AI Engineering role.
+
+Technical Architecture:
+1. Frontend: The user interface is built using Streamlit, providing a simple web-based chat experience.
+2. Backend: The API layer is powered by FastAPI, handling document uploads and query processing.
+3. AI Engine: The system uses Ollama to run the Qwen 2.5 (1.5B) model for generating answers.
+4. Database: Originally designed for Weaviate, the system was optimized to use ChromaDB to ensure compatibility with Windows laptops and 8GB RAM constraints.
+5. Embeddings: Text is converted into vectors using the 'nomic-embed-text' model.
+
+Key Features:
+- Privacy-First: No data leaves the local machine.
+- Lightweight: Optimized for standard laptops (CPUs) rather than requiring expensive GPUs.
+- RAG Pipeline: Implements Retrieval-Augmented Generation to answer questions based strictly on the uploaded documents.

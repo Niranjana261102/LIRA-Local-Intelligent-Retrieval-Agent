@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+weaviate-client==3.26.2
+sentence-transformers
+langchain
+langchain-community
+transformers
+torch
+pdfminer.six
+python-multipart
+pydantic
+numpy
+scikit-learn
+requests
+python-dotenv
+streamlit

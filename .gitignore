@@ -1,0 +1,14 @@
+# Ignore the Virtual Environment (Heavy)
+.venv/
+venv/
+.idea/
+
+# Ignore the Database (Local only)
+chroma_db/
+weaviate_data/
+new_weaviate_data/
+__pycache__/
+
+# Ignore huge files
+*.pdf
+*.mp4
